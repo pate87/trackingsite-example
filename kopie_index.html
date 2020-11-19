@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="us">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Webstite by Patrick Schubert">
+        <meta name="keywords" content="website, test, patrick schubert, ">
+        <meta name="author" content="Patrick Schubert">
+
+        <title>Patrick | Schubert</title>
+
+      <!--  <link rel="stylesheet" href="style.css"> -->
+
+        <style type="text/css">
+
+            * {
+                margin: 0;
+                padding: 0;
+                letter-spacing: 1px;
+            }      
+
+            body {
+                /* display: block; */
+                font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+                font-size: 1rem;
+            }
+                main {
+                /* line-height: 1.5; */
+                /* background: #f3f3f3; */
+                background: url(http://pschubert.000webhostapp.com/style/img/File_004.jpeg) center center no-repeat;
+                background-size: cover;
+                height: calc(100vh - 120px);
+                width: 100vw;
+            }
+            
+            /**** DEFAULT ****/
+
+            ul {
+    list-style: none;
+}
+
+a, p {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #e7e7e7;
+    letter-spacing: 1px;
+
+
+}
+            /**** HEADER ****/
+
+  header {
+    background-color: #3a464b;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: solid 3px #4E8BC4;
+    text-align: center;
+  }
+  
+  /**** BRAND ****/
+
+  .brand {
+    color: #f3f3f3;
+    text-transform: uppercase;
+    border-bottom: solid 3px #4E8BC4;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+  }
+
+  .brand a {
+    /* text-align: center; */
+    border-bottom: 5px solid #4E8BC4;
+    
+    color: #f3f3f3;
+    /* text-align: center; */
+    font-weight: 900;
+    font-size: 24px;
+    margin: 0 0 0 20px;
+    /* padding: 10px 0; */
+    /* display: block; */
+    /* width: 100%; */
+}
+
+/**** LOGIN AREA ***/
+
+            .login-box {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background-color: rgba(1,1,1,0.5);
+                width: 300px;
+                padding: 40px;
+                box-shadow: 0px 10px 50px rgba(250,250,250,0.5);
+                border-radius: 15px;
+            }
+
+            @media only screen and (min-width: 1080px) {
+                .login-box {
+                    width: 400px;
+                }
+            }
+
+            .login-box > h2 {
+                color: #f3f3f3;
+                text-transform: uppercase;
+                margin-bottom: 20px;
+                letter-spacing: 1px;
+            }
+
+            .login-box .inputbox {
+                position: relative;
+            }
+
+            .login-box .inputbox input {
+                width: 100%;
+                padding: 10px 0;
+                font-size: 1.2rem;
+                color: #f3f3f3;
+                margin-bottom: 30px;
+                line-height: 0.5rem;
+                border: none;
+                border-bottom: solid 1px #f3f3f3;
+                background: transparent;
+                outline: none;
+                letter-spacing: 1px;
+            }
+
+            .login-box .inputbox label {
+                position: absolute;
+                top: 0;
+                left: 0;
+                text-transform: uppercase;
+                padding: 10px 0;
+                font-size: 1.2rem;
+                color: #f3f3f3;
+                line-height: 2.5rem;
+                pointer-events: none;
+                transition: 0.5s;
+                letter-spacing: 1px;
+            }
+            
+            .login-box .inputbox input:focus ~ label,
+            .login-box .inputbox input:valid ~ label {
+                top: -2rem;
+                left: 0;
+                color: #4E8BC4;
+                font-size: 1rem;
+            }
+
+            .btn-box {
+                display: flex;
+                justify-content: center;
+            }
+            .btn-box > input  {
+                
+    box-shadow: inset 0 1px 20px #eee;
+    background-color: transparent;
+    color: #f3f3f3;
+    padding: 10px;
+    width: 100px;
+    font-size: 1em;
+    text-transform: uppercase;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px #293347;
+    outline: none;
+  }
+  .btn-box > input:hover {
+    box-shadow: inset 10px 10px 25px #4E8BC4, inset -10px -10px 25px #4E8BC4;
+    color: #fff;
+    transition: translate 0.5s ease-in-out;
+  }
+
+  .text-box {
+      position: absolute;
+      top: 80%;
+      width: 100%;
+      text-align: center;
+  }
+    /**** FOOTER ****/
+    footer {
+    /* background-color: #3a464b; */
+    /* position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0; */
+    /* text-align: center; */
+
+    background-color: #3a464b;
+    /* height: 60px; */
+    
+    }
+
+    .footer-box {
+        padding: 20px 0;
+        width: 100%;
+        text-align: center;
+    }
+    @media only screen and (min-width: 1080px) {
+        .footer-box {
+            padding: 20px 0;
+            display: flex;
+            justify-content: space-around;
+            /* align-items: center; */
+            /* border-bottom: solid 3px #4E8BC4; */
+            /* text-align: center; */
+        }
+    }
+
+           /**** FOOTER LIST ****/
+  
+        
+  .footer_brand {
+    color: #f3f3f3;
+    text-transform: uppercase;
+    border-bottom: 3px solid #4E8BC4;
+    font-size: 1.5rem;
+  }
+
+footer .footer_list {
+  padding: 0 30px;
+}
+
+  footer .footer_list li {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  footer .footer_list li h4 {
+    color: #4E8BC4;
+    font-size: 1.2em;
+    line-height: 1.5;
+  }
+  footer .footer_list li a {
+    line-height: 1.5;
+    font-size: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #e7e7e7;
+  }
+  footer .copy {
+    text-align: center;
+  }
+</style>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-133276094-1"></script> 
+<script src="ga.js"></script>
+
+<script>
+        window.smartlook||(function(d) {
+        var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
+        var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
+        c.charset='utf-8';c.src='https://rec.smartlook.com/recorder.js';h.appendChild(c);
+        })(document);
+        smartlook('init', 'de6ceb1dbb90c6b1c8f02af6a5aa0bd3f43666c4');
+     </script>
+     <!-- <script src="isAdBlockEnable.js"></script> -->
+    </head>
+
+<body>
+
+    <header>
+
+         <!-- Logo / Brand Name -->
+                
+         <span class="brand">
+
+                <h3>patrick schubert</h3>
+
+            </span>  
+
+        </div> <!-- close header_inner -->
+
+    </header>
+
+    <main>
+        <section class="login-box">
+            
+            <h2>login</h2>
+            <form method="POST">
+                <div class="inputbox">
+
+                    
+                    <input id="name" type="text" name="userid" required="" value=""></li>
+                    <label for="name">Username</label>
+
+                </div>
+
+                <div class="inputbox">
+                    
+                    
+                    <input id="password" type="password" name="pwd" required="" value=""></li>
+                    <label for="password">password</label>
+                </div>
+                
+                <div class="btn-box">
+                    <input type="submit" class="btn_submit" value="login">
+                </div>
+                
+            </form>
+                
+        </section>
+
+        <div class="text-box">
+
+        <p>This is a website only for test tracking. If you login to the next page your data will gathered data by using GMT and GA.</p>
+        <p>I don't track any personal data</p>
+        <p>The login is <b>TRACKINGSITE</b> for both as user name and password</p>
+        </div>
+        
+        <div id="ad"></div>
+
+    </main>
+
+        <footer>
+       
+            <div class="footer-box">
+                     
+                     <a href="index.html" class="footer_brand">Patrick Schubert</a>
+            </div>
+
+            <div class="footer-box">
+
+                    <ul class="footer_list">
+                            <li><h4>Contact</h4></li>
+                            <li><a class='email' href='mailto:patrick-schubert@gmx.de'>patrick-schubert@gmx.de</a></li>
+                        </ul>
+                 
+                        <ul class="footer_list">
+                            <li><h4>Social</h4></li>
+                            <li><a href="#">LinkedIn</a></li>
+                            <li><a href="#">Stack Overflow</a></li>
+                            <li><a href="#">Codepen</a></li>
+                            <li><a href="#">Solo Learn</a></li>
+                        </ul>
+
+                  
+             
+                </div> <!-- Container close -->
+                <div class="footer-box">
+                <p class="copy">&copy; Copyright Patrick Schubert 2019</p>
+           </div>
+            </footer>
+            <script async src="adsbygoogle.js" id="adsbygoogle"></script>
+            <script>
+                    document.querySelector('script[src="adsbygoogle.js"]').onload = function() {
+                     if(!document.getElementById("ObaTiWkGxZSM")){console.log('Please disable your AdBlocker');}
+                    //  else {
+                    //      console.log('AdBlocker is off');
+                    //  }
+                    }
+            
+            //         document.querySelector('script[src="adsbygoogle.js"]').addEventListener('input', () => {
+            //     if(!document.getElementById("adsbygoogle") != null) {
+            //         console.log(1);
+            //     } else {
+            //         console.log('AdBlocker is off');
+            //     }
+            //    });
+                    </script>
+<script src="isAdBlockEnable.js"></script>
+            <script src="ga-events.js"></script>
+
+            
+</body>
+</html>
